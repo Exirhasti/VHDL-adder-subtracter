@@ -1,0 +1,6 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: c:/Users/exirh/Desktop/Private/5th semester/Aminian/ADDER/Adder/src/TestBench/adder_subtracter_TB.vhd" 
+MESSAGE "Compile Entity "adder_subtracter_tb"" 
+MESSAGE "Compile Architecture "TB_ARCHITECTURE" of Entity "adder_subtracter_tb"" 
+MESSAGE "Compile Configuration "TESTBENCH_FOR_adder_subtracter"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]" 

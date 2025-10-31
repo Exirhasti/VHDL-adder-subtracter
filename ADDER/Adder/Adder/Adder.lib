@@ -1,0 +1,54 @@
+timestamp=1731788439674
+
+[~A]
+ModifyID=93
+Version=74
+
+[~MFT]
+0=4|0Adder.mgf|85978|79863
+1=4|1Adder.mgf|195922|192116
+3=2|3Adder.mgf|48905|47391
+
+[adder_subtracer]
+I=0*724
+M=11|2|vef|1731776046049|../src/ADD/SUB.vhd|0*246*0x23aa1b21074231f0ac8bd6cee705ca5290a4ae13|0*637*0x23b75c12e3e89f2ef000564498faa8c2
+R=../src/ADD/SUB.vhd|29
+Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|68095cde8515a895b72ef84708a2aed8b653e3e285228ebb0333058161ecdb913047b3370d4b34e280e1c466d7e58a5c
+
+[adder_subtracter]
+A/behavioral=A/Behavioral 21|../src/ADD/SUB.vhd|17|1*192116
+BinW64/behavioral=3*47391
+I=0*1697
+I/behavioral=I/Behavioral 0*85404
+M=11|2|vef|1731776335192|../src/ADD/SUB.vhd|0*1219*0xa9fdfd7401e37775326f33466167254233736382|0*1609*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=M/Behavioral 21|2|vef|1731788439442|../src/ADD/SUB.vhd|0*78284*0x98d56611fa6748873b0cefde61ae21748a1a2a1b|0*79089*0x20116f55b147878295aeff36dce7fc50
+R=../src/ADD/SUB.vhd|5
+Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|68095cde8515a895b72ef84708a2aed87399963010a5706bf079b89c339ac2b459b3d0ff8e5a927a37ff56323aba6580
+Version/behavioral=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff4e5bbc6b3aa42dcb0e8fc2ae821bca7b0
+
+[adder_subtracter_tb]
+A/tb_architecture=A/TB_ARCHITECTURE 21|../src/TestBench/adder_subtracter_TB.vhd|10|1*193966
+BinW64/tb_architecture=3*48905
+I=0*3549
+I/tb_architecture=I/TB_ARCHITECTURE 0*85665
+M=11|2|vef|1731778645257|../src/TestBench/adder_subtracter_TB.vhd|0*3191*0xa565f9984847b627ff393e43dba6454b9b7e08e1|0*3436*0x23b75c12e3e89f2ef000564498faa8c2
+M/tb_architecture=M/TB_ARCHITECTURE 21|2|vef|1731788439658|../src/TestBench/adder_subtracter_TB.vhd|0*82976*0xbf54f74515b6617880e47e39887df3f85665fabf|0*84273*0x20116f55b147878295aeff36dce7fc50
+R=../src/TestBench/adder_subtracter_TB.vhd|7
+Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|68095cde8515a895b72ef84708a2aed8de3a0cfe768b14574d88347fcaeabe13c414493f56c71ff3f6e56bf2830c0151
+Version/tb_architecture=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|da2d76821309f33ed1264ca4678a936a8f84fef0fc5d0f10f1a8cfc2ad534beaa036a63fedd4e27ab4a22c721d7c2ed8
+
+[testbench_for_adder_subtracter]
+Configures=adder_subtracter_tb.TB_ARCHITECTURE
+E=1*195922
+I=0*85978
+M=2|2|vef|1731788439661|../src/TestBench/adder_subtracter_TB.vhd|0*84718*0x69212c98cc6293d8b28d9780af242e7bb0c8b538|0*85076*0x20116f55b147878295aeff36dce7fc50
+R=../src/TestBench/adder_subtracter_TB.vhd|99
+Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|5efd636a07bb57613e35fadc81a5c3e55dc077ce92496380ccef7e9e5b9670d7fe42ec42c808335f44ec0608cb87a742ff553bfb67ff7c7bea90890c5e281ac1
+
+[~U]
+adder_subtracer=Adder_Subtracer 11|0*0|
+adder_subtracter=Adder_Subtracter 11|0*964|
+adder_subtracter_tb=11|0*3048|
+testbench_for_adder_subtracter=TESTBENCH_FOR_adder_subtracter 2||
+
+

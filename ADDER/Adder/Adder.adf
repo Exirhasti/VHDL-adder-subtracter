@@ -1,0 +1,41 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=Adder
+[Library]
+Adder=.\Adder\Adder.lib
+[$LibMap$]
+Adder=.
+Active_lib=
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=ONLY_IMPL
+ON_SERVERFARM_SYNTH=0
+ON_SERVERFARM_IMPL=0
+ON_SERVERFARM_SIM=0
+[IMPLEMENTATION]
+UCF=
+[Groups]
+ADD=1
+TestBench=1
+[Files]
+/..\..\..\..\..\5thsemester\Aminian\ADDER\Adder\src\untitled.asdb=-1
+/..\..\..\..\..\5thsemester\Aminian\ADDER\Adder\src\untitled.awc=-1
+ADD/SUB.vhd=-1
+TestBench/adder_subtracter_TB.vhd=-1
+TestBench/adder_subtracter_TB_runtest.do=-1
+[Files.Data]
+.\..\..\..\..\5thsemester\Aminian\ADDER\Adder\src\untitled.asdb=Accelerated Waveform File
+.\..\..\..\..\5thsemester\Aminian\ADDER\Adder\src\untitled.awc=Accelerated Waveform Configuration
+.\src\ADD\SUB.vhd=VHDL Source Code
+.\src\TestBench\adder_subtracter_TB.vhd=VHDL Test Bench
+.\src\TestBench\adder_subtracter_TB_runtest.do=Macro
+[HierarchyViewer]
+HierarchyInformation=adder_subtracter_tb|testbench_for_adder_subtracter|1
+ShowHide=ShowTopLevel
+Selected=
